@@ -1,0 +1,44 @@
+ritunjaya@ritunjaya-HP-Laptop-15-dy2xxx:~$ cd python_catkin
+ritunjaya@ritunjaya-HP-Laptop-15-dy2xxx:~/python_catkin$ cd src
+ritunjaya@ritunjaya-HP-Laptop-15-dy2xxx:~/python_catkin/src$ cd ..
+ritunjaya@ritunjaya-HP-Laptop-15-dy2xxx:~/python_catkin$ catkin_make
+Base path: /home/ritunjaya/python_catkin
+Source space: /home/ritunjaya/python_catkin/src
+Build space: /home/ritunjaya/python_catkin/build
+Devel space: /home/ritunjaya/python_catkin/devel
+Install space: /home/ritunjaya/python_catkin/install
+####
+#### Running command: "cmake /home/ritunjaya/python_catkin/src -DCATKIN_DEVEL_PREFIX=/home/ritunjaya/python_catkin/devel -DCMAKE_INSTALL_PREFIX=/home/ritunjaya/python_catkin/install -G Unix Makefiles" in "/home/ritunjaya/python_catkin/build"
+####
+-- Using CATKIN_DEVEL_PREFIX: /home/ritunjaya/python_catkin/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ritunjaya/python_catkin/build/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - tutorials
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'tutorials'
+-- ==> add_subdirectory(tutorials)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ritunjaya/python_catkin/build
+####
+#### Running command: "make -j8 -l8" in "/home/ritunjaya/python_catkin/build"
+####
+ritunjaya@ritunjaya-HP-Laptop-15-dy2xxx:~/python_catkin$ source devel/setup.bash
+ritunjaya@ritunjaya-HP-Laptop-15-dy2xxx:~/python_catkin$ rosrun tutorials publisher_node.py
