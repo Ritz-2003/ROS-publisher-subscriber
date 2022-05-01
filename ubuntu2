@@ -1,0 +1,27 @@
+ritunjaya@ritunjaya-HP-Laptop-15-dy2xxx:~/python_catkin$ roscore
+... logging to /home/ritunjaya/.ros/log/b62a9c7e-c933-11ec-b64a-71abe4ff662e/roslaunch-ritunjaya-HP-Laptop-15-dy2xxx-12251.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://ritunjaya-HP-Laptop-15-dy2xxx:38545/
+ros_comm version 1.15.14
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.15.14
+
+NODES
+
+auto-starting new master
+process[master]: started with pid [12259]
+ROS_MASTER_URI=http://ritunjaya-HP-Laptop-15-dy2xxx:11311/
+
+setting /run_id to b62a9c7e-c933-11ec-b64a-71abe4ff662e
+process[rosout-1]: started with pid [12269]
+started core service [/rosout]
+
